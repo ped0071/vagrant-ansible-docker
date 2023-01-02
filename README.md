@@ -52,7 +52,7 @@ $ sudo apt install ansible
 ```
 vagrant up
 ```
-- ``Editar o arquivo "servidores" inserindo o ip da sua máquina virtual``
+- ``Editar o arquivo "server" inserindo o ip da sua máquina virtual``
 - ``Configurar o SSH da sua máquina para comunicar com a máquina virtual``
 ```
 ssh-copy-id -i ~/.ssh/id_rsa vagrant@ip-da-sua-máquina-virtual
