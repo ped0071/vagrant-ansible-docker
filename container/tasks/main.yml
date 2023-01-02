@@ -1,0 +1,9 @@
+---
+- name: Criando container
+  docker_container:
+    name: nginx-teste
+    image: ped071/my-nginx:1.0
+    state: started
+    ports:
+      - "8080:80"
+  become: true

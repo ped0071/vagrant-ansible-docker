@@ -1,0 +1,2 @@
+[linux]
+docker-nginx ansible_host=ip-da-sua-maquina-virtual ansible_user=vagrant ansible_password=vagrant

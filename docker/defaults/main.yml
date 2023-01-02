@@ -1,0 +1,22 @@
+---
+# defaults file for docker
+pacotes:
+  - vim
+  - curl
+  - htop
+  - nmap
+  - telnet
+  - net-tools
+  - wget
+  - unzip
+  - ca-certificates
+  - gnupg-agent
+  - lsb-release
+  - python3-pip
+  - python3-setuptools
+
+docker:
+  - docker-ce
+  - docker-ce-cli
+  - containerd.io
+  - docker-compose-plugin
